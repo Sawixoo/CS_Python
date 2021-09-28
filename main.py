@@ -10,9 +10,5 @@ from work_2.conditional_operators import *
 
 
 if __name__ == '__main__':
-    # a = float(input('Введите А: '))
-    # b = float(input('Введите В: '))
-    # c = float(input('Введите C: '))
-    # x = float(input('Введите X: '))
-    # y = float(input('Введите Y: '))
+
     task_if_5()       # Ввести название нужной функции

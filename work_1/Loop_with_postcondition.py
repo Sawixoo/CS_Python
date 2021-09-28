@@ -1,7 +1,7 @@
 from math import sqrt
 
 
-def twelfth_task(q):              # Цикл с постусловием
+def twelfth_task():              # Цикл с постусловием
     q = float(input('Введите Q: '))
 
     s = 0

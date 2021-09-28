@@ -37,7 +37,7 @@ def sixteenth_task():
             return 'Уравнение не имеет корней'
 
 
-def seventeenth_task(a, b):
+def seventeenth_task():
     a = float(input('Введите А: '))
     b = float(input('Введите В: '))
 
@@ -93,7 +93,7 @@ def twentieth_task():
     return f'Y = {y}'
 
 
-def twenty_first_task(a, b, c):
+def twenty_first_task():
     a = float(input('Введите А: '))
     b = float(input('Введите В: '))
     c = float(input('Введите C: '))
@@ -106,7 +106,7 @@ def twenty_first_task(a, b, c):
             return 'Кошка не подходит'
 
 
-def twenty_second_task(a, b, c, x, y):
+def twenty_second_task():
     a = float(input('Введите А: '))
     b = float(input('Введите В: '))
     c = float(input('Введите C: '))

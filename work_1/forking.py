@@ -1,7 +1,10 @@
 from math import sqrt
 
 
-def fifth_task(x):                  # Разветвляющийся алгоритм
+def fifth_task():                  # Разветвляющийся алгоритм
+
+    x = float(input('Введите X: '))
+
     if x >= 0:
         y = sqrt(x)
     else:
@@ -9,7 +12,10 @@ def fifth_task(x):                  # Разветвляющийся алгор�
     return f'X = {x} | Y = {y}'
 
 
-def sixth_task(a, b, c):
+def sixth_task():
+    a = float(input('Введите А: '))
+    b = float(input('Введите В: '))
+    c = float(input('Введите C: '))
     d = b**2 - 4 * a * c
     if d >= 0:
         x1 = ((-b - sqrt(d)) / (2 * a))
@@ -19,7 +25,10 @@ def sixth_task(a, b, c):
         return 'Нет решения'
 
 
-def seventh_task(x, y):
+def seventh_task():
+    x = float(input('Введите X: '))
+    y = float(input('Введите Y: '))
+
     if x == 0:
         return '[Error] division by zero'
     else:
@@ -27,7 +36,10 @@ def seventh_task(x, y):
         return f'X = {x} | Y = {y} | Z = {z}'
 
 
-def eight_task(a, b):
+def eight_task():
+    a = float(input('Введите А: '))
+    b = float(input('Введите В: '))
+
     s = a * b
     if s > 500:
         s = s * 0.9

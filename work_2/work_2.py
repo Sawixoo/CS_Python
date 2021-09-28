@@ -1,5 +1,5 @@
 
-def task_1():
+def task2_1():
     number = 5
     digit = 4.54356876
     word = 'Result'
@@ -12,7 +12,7 @@ def task_1():
     print(f'{word}:', number)
 
 
-def task_2():
+def task2_2():
     num1 = int(input("Введите первое число: "))
     num2 = int(input("Введите второе число: "))
     num1 *= 5
@@ -30,12 +30,12 @@ def task_2():
     word = True
 
 
-def task_3():
+def task2_3():
     name = input('Введите фамилию:')
     print(name*3)
 
 
-def task_4():
+def task2_4():
     a = float(input('Введите А: '))
     b = float(input('Введите В: '))
     c = float(input('Введите C: '))
@@ -44,7 +44,7 @@ def task_4():
           f'Умножение: { a * b *c } \nОстаток при делении: {a % b % c}')
 
 
-def task_5():
+def task2_5():
     integer = 5
     digit = 5.12
     str_num = '10'

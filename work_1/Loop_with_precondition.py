@@ -1,7 +1,10 @@
 from math import sqrt
 
 
-def ninth_tack(a, b):                # Цикл с предусловием
+def ninth_tack():                # Цикл с предусловием
+    a = float(input('Введите А: '))
+    b = float(input('Введите В: '))
+
     while a != b:
         if a > b:
             a = a - b
@@ -11,7 +14,9 @@ def ninth_tack(a, b):                # Цикл с предусловием
         return f'A = {a}'
 
 
-def tenth_tack(n):
+def tenth_tack():
+    n = float(input('Введите N: '))
+
     s = 0
     i = 1
     while i <= n:

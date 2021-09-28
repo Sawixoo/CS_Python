@@ -1,6 +1,7 @@
 
 
-def fourteenth_task(x):        # Дополнительные задачи
+def fourteenth_task():        # Дополнительные задачи
+    x = float(input('Введите X: '))
     if not x < 0:
         if x >= 1:
             y = 4 * x - 1
@@ -11,7 +12,9 @@ def fourteenth_task(x):        # Дополнительные задачи
     return f'Y = {y}'
 
 
-def fifteenth_task(a):
+def fifteenth_task():
+    a = float(input('Введите А: '))
+
     if not a == 0:
         c = 3 / a
         if a > 0:
@@ -22,7 +25,9 @@ def fifteenth_task(a):
         return 'X - Любое'
 
 
-def sixteenth_task(a, b):
+def sixteenth_task():
+    a = float(input('Введите А: '))
+    b = float(input('Введите В: '))
     if a != 0:
         return f'Уравнение имеет один корень b / a = { b / a}'
     else:
@@ -33,6 +38,9 @@ def sixteenth_task(a, b):
 
 
 def seventeenth_task(a, b):
+    a = float(input('Введите А: '))
+    b = float(input('Введите В: '))
+
     if a == 0:
         if b == 0:
             return 'x - любое'
@@ -46,7 +54,10 @@ def seventeenth_task(a, b):
             return 'X < c'
 
 
-def eighteenth_task(a, b, c):
+def eighteenth_task():
+    a = float(input('Введите А: '))
+    b = float(input('Введите В: '))
+    c = float(input('Введите C: '))
     min = a
     if min > b:
         min = b
@@ -55,7 +66,9 @@ def eighteenth_task(a, b, c):
     return f'min = {min}'
 
 
-def nineteenth_task(st):
+def nineteenth_task():
+    st = float(input('Введите st: '))
+
     if st < 5:
         zp = 130
     else:
@@ -66,7 +79,10 @@ def nineteenth_task(st):
     return f'ZP = {zp}'
 
 
-def twentieth_task(x, a, b):
+def twentieth_task():
+    a = float(input('Введите А: '))
+    b = float(input('Введите В: '))
+    x = float(input('Введите X: '))
     if x < 10:
         y = x + a
     else:
@@ -78,6 +94,9 @@ def twentieth_task(x, a, b):
 
 
 def twenty_first_task(a, b, c):
+    a = float(input('Введите А: '))
+    b = float(input('Введите В: '))
+    c = float(input('Введите C: '))
     if a > c:
         return 'Кошка не подходит'
     else:
@@ -88,6 +107,11 @@ def twenty_first_task(a, b, c):
 
 
 def twenty_second_task(a, b, c, x, y):
+    a = float(input('Введите А: '))
+    b = float(input('Введите В: '))
+    c = float(input('Введите C: '))
+    x = float(input('Введите X: '))
+    y = float(input('Введите Y: '))
     if a > b:
         r = a
         a = b

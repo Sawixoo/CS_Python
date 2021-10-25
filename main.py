@@ -7,10 +7,9 @@ from work_1.Additional_tasks import *
 # 21.09.21
 from work_2.work_2 import *
 from work_2.conditional_operators import *
-# 28.09.21
-
-
+# 05.10.21
+from work_3.work_3 import *
 
 
 if __name__ == '__main__':
-    pass
+    black_jack()

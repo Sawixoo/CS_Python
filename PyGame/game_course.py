@@ -97,7 +97,7 @@ while run:
             facing = 1
         else:
             facing = -1
-        if len(bullets) < 5:
+        if len(bullets) < 10:
             bullets.append(snaryad(round(x + width // 2), round(y + height // 2), 5, (255, 0, 0), facing))
 
     if keys[pygame.K_LEFT] and x > 5:

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/js_task.css" rel="stylesheet" type="text/css">
+    <title>Form js</title>
+</head>
+<body>
+    <form id="main-form" class="forma">
+        <h2>Форма обратной связи</h2>
+
+        <p class="text_option">Имя</p> 
+        <input type="text" name="name" id="user_name" class="text_input" placeholder="Введите имя...">
+        
+        <p class="text_option">Email</p>
+        <input type="text" name="email" id="user_email" class="text_input" placeholder="Введите Email...">
+
+        <p class="text_option">Телефон</p>
+        <input type="text" name="phone" id="user_phone" class="text_input" placeholder="Введите телефон...">
+
+        <p class="text_option">Сообщение</p>
+        <textarea class="text_input" name="sms" id="user_sms" name="comment" cols="40" rows="4" placeholder="Введите сообщение от 50 до 399 символов..."></textarea></p>
+
+        <p id="output_error" style="color:red"></p>
+
+        <input type="submit" class="btn" id="btn" value="Отправить">
+    </form>
+    <div id="comment" >
+        <h2>Коментарии</h2>
+        
+    </div>
+    <script src="js/task.js"></script>
+</body>
+</html>
